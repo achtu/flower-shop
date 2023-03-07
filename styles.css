@@ -15,14 +15,12 @@ nav {
   margin-left: 100px;
   font-size: 28px;
   align-items: center;
-justify-content: space-around;
+  justify-content: space-around;
 }
 
 .nav-li {
   display: inline-flex;
   width: 150px;
- 
- 
 }
 .container-nav-2,
 .container-nav-1,
@@ -97,16 +95,13 @@ h1 {
   width: 45px;
 }
 
-
 /* //////////////  benefits-list  //////////////  */
 
-
-.cont-1{
-    display: flex;
-    width: 300px;
-    font-size: 24px;
-    align-items: center;
-
+.cont-1 {
+  display: flex;
+  width: 300px;
+  font-size: 24px;
+  align-items: center;
 }
 
 .benefits {
@@ -121,56 +116,85 @@ h1 {
   float: none;
   padding-right: 20px;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-.bold{
-    font-size: 32px;
-    font-weight: 400;
+.bold {
+  font-size: 32px;
+  font-weight: 400;
 }
-.not-bold{
-    font-size: 18px;
+.not-bold {
+  font-size: 18px;
   color: #a2a2a2;
   padding-top: 20px;
   padding-left: 65px;
 }
 /* //////////////  flowers-box ////////////// */
-.flowers-wrapper{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 32px;
-position: relative;
-width: 100%;
+.flowers-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  width: 100%;
 }
-.p-flower{
-    font-size: 18px;
+.p-flower {
+  font-size: 18px;
   color: #a2a2a2;
 }
-.flowers-text{
-    font-family: "Quicksand", sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    width: 260px;
+.flowers-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  width: 260px;
 }
-.purple-block{
-    width: 280px;
-    height: 400px;
-    background: #C1D0E4;
-    border-radius: 50px;
+.purple-block {
+  width: 280px;
+  height: 400px;
+  background: #c1d0e4;
+  border-radius: 50px;
 }
-.white-block{
-width: 280px;
-height: 200px;
-background: #fff;
-border-radius: 50px;
-position: absolute;
-top: 200px;
+.white-block {
+  width: 280px;
+  height: 200px;
+  background: #fff;
+  border-radius: 50px;
+  position: absolute;
+  top: 200px;
 }
-.flower-img{
+.flower-img {
+  float: none;
+  top: -150px;
+  position: absolute;
+  width: 300px;
+}
+.white-viv-text{
+ padding-left: 40px;
+ font-family: "Quicksand", sans-serif;
+ 
+}
+.price-wrapper {
+    display: flex;
+width: 70%;
+
+}
+.pus-btn{
     float: none;
-    top: -150px;
-    position: absolute;
-    width: 300px;
+
+}
+
+
+/* //////////////  interior part ////////////// */
+
+
+.text-block-interior{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+.text-block-interior h2{
+    font-size: 62px;
+}
+.text-block-interior p{
+    font-size: 18px;
 }
