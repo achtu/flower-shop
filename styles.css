@@ -115,7 +115,7 @@ h1 {
   width: 100%;
   font-family: "Work Sans", sans-serif;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 .li-img {
   float: none;
@@ -133,4 +133,44 @@ li{
   color: #a2a2a2;
   padding-top: 20px;
   padding-left: 65px;
+}
+/* //////////////  flowers-box ////////////// */
+.flowers-wrapper{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 32px;
+position: relative;
+width: 100%;
+}
+.p-flower{
+    font-size: 18px;
+  color: #a2a2a2;
+}
+.flowers-text{
+    font-family: "Quicksand", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    width: 260px;
+}
+.purple-block{
+    width: 280px;
+    height: 400px;
+    background: #C1D0E4;
+    border-radius: 50px;
+}
+.white-block{
+width: 280px;
+height: 200px;
+background: #fff;
+border-radius: 50px;
+position: absolute;
+top: 200px;
+}
+.flower-img{
+    float: none;
+    top: -150px;
+    position: absolute;
+    width: 300px;
 }
