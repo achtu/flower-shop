@@ -206,7 +206,7 @@ li {
   flex-direction: column;
 }
 .photo-1 {
-  background-image: url(/img/brown-sofa-wooden-table-living-room-interior-with-plant-concrete-wall.png);
+  background-image: url(/img/Group\ 20.png);
   border-radius: 50px;
   background-size: 100%;
   min-width: 45%;
@@ -218,7 +218,7 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(40%)
+  
 }
 .living-room-p {
   color: white;
