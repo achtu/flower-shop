@@ -169,32 +169,147 @@ li {
   position: absolute;
   width: 300px;
 }
-.white-viv-text{
- padding-left: 40px;
- font-family: "Quicksand", sans-serif;
- 
+.white-viv-text {
+  padding-left: 40px;
+  font-family: "Quicksand", sans-serif;
 }
 .price-wrapper {
-    display: flex;
-width: 70%;
-
+  display: flex;
+  width: 70%;
 }
-.pus-btn{
-    float: none;
-
+.pus-btn {
+  position: absolute;
+  top: 128px;
+  left: 200px;
 }
-
 
 /* //////////////  interior part ////////////// */
 
+.text-block-interior {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+.text-block-interior h2 {
+  font-size: 62px;
+  margin-top: 100px;
+}
+.text-block-interior p {
+  font-size: 18px;
+  padding-bottom: 60px;
+}
 
-.text-block-interior{
+.inter-photos-wrapper {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.photo-1 {
+  background-image: url(/img/brown-sofa-wooden-table-living-room-interior-with-plant-concrete-wall.png);
+  border-radius: 50px;
+  background-size: 100%;
+  min-width: 45%;
+  height: 45vh;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.living-room-p {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 110px;
+  padding-left: 230px;
+  font-size: 34px;
+  font-family: "Work Sans", sans-serif;
+}
+.photo-2 {
+  background-image: url(/img/high-angle-desk-arrangement-with-plants.svg);
+  border-radius: 50px;
+  background-size: 100%;
+  min-width: 45%;
+  height: 38vh;
+  margin-left: 70px;
+  margin-right: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.photo-3 {
+  background-image: url(/img/unsplash_MBsReSZ2WNM.png);
+  border-radius: 50px;
+  background-size: 100%;
+  min-width: 40%;
+  height: 89vh;
+  margin-right: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*////////////////// care container  ////////////////////*/
+.care-container {
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  line-height: 1.22;
+}
+
+.li,
+.care-p {
+    margin-left: 125px;
+  display: inline-block;
+  text-align: right;
+  font-size: 32px;
+}
+.p-not-bold {
+  width: 50%;
+  margin-left: 185px;
+}
+
+.care-container h2 {
+  font-size: 62px;
+  width: 500px;
+  margin-left: 125px;
+  margin-top: 100px;
+}
+.care-icons {
+  width: 30px;
+  margin-right: 30px;
+}
+.care-wrapper {
+  display: flex;
+  margin-bottom: 100px;
+}
+.three-plant {
+  margin-top: 410px;
+  height: 60vh;
+  padding-right: 100px;
+}
+/*////////////////// footer  ////////////////////*/
+footer {
+  position: absolute;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(93.99deg, #566270 0.51%, #283444 100%);
+}
+.ul-wrapper{
+    display: flex;
+}
+.footer-p{
     text-align: center;
-    font-family: "Quicksand", sans-serif;
+    color: #fff;
 }
-.text-block-interior h2{
-    font-size: 62px;
+.menu-name{
+    font-size: 34px;
 }
-.text-block-interior p{
-    font-size: 18px;
+.list-of-footer{
+    font-size: 12px;
+    width: 10%;
 }
